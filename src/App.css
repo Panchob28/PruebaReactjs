@@ -1,0 +1,62 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 2rem 3rem;
+    color: white;
+}
+
+main{
+    max-width: 1200px;
+    margin: 6rem auto 0 auto;
+    width: 80%;
+}
+
+.inputs{
+    margin-bottom: 1.5rem;
+}
+
+input{
+    padding: 0.3rem 1rem;
+    width: 350px;
+    margin-right: 2rem;
+}
+
+select{
+    padding: 0.3rem 1rem;
+    width: 200px;
+}
+
+input:active,
+input:focus,
+select:active,
+select:focus{
+    outline: none;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+table th{
+    background-color: brown;
+    padding: 0.5rem;
+    color: white;
+}
+
+table td{
+    padding: 0.5rem;
+    border-bottom: 1px solid rgb(165, 42, 42, 0.5);
+}
+
+footer{
+    padding: 2rem 3rem;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
